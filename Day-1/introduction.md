@@ -16,3 +16,12 @@
   - Cloud computing basics
   - Introduction to core Microsoft Azure services
   - Governance and compliance services overview
+
+### Learning objectives
+
+- Define cloud computing.
+- Describe the shared responsibility model.
+- Define cloud models, including public, private, and hybrid.
+- Identify appropriate use cases for each cloud model.
+Describe the consumption-based model.
+- Compare cloud pricing models.
