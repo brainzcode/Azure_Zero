@@ -66,7 +66,7 @@ Devices that are allowed to connect to your cloud (cell phones, computers, and s
 - Identity and infrastructure
 
 
-## Define cloud models
+## Define Cloud Models.
 
 - What are cloud models? The cloud models define the deployment type of cloud resources. The three main cloud models are: private, public, and hybrid.
 
@@ -110,3 +110,35 @@ Devices that are allowed to connect to your cloud (cell phones, computers, and s
 | Applications can be quickly provisioned and deprovisioned | Data is not collocated with other organizations’ data | Organizations determine where to run their applications |
 | Organizations pay only for what they use | Hardware must be purchased for startup and maintenance | Organizations control security, compliance, or legal requirements |
 | Organizations don’t have complete control over resources and security | Organizations are responsible for hardware maintenance and updates |  |
+
+
+### What is a Multi-Cloud?
+- This Involves using multiple public cloud providers simultaneously.
+
+#### Variety of Use Cases:
+- Using different features from various cloud providers.
+
+- Migrating from one provider to another during the cloud journey.
+
+#### Management Challenges:
+- Involves dealing with two or more public cloud providers.
+
+- Requires resource and security management in multiple environments.
+
+
+### What is Azure Arc?
+
+- A Set of technologies for cloud environment management.
+
+#### Scope of Management:
+- ##### Manages various cloud environments, including:
+  - Public cloud solely on Azure
+Private cloud in your datacenter.
+  - Hybrid configurations.
+  - Multi-cloud environments across multiple providers
+
+#### Functionality:
+- Assists in managing and coordinating resources in diverse cloud setups.
+
+#### Azure VMware Solution
+- What if you’re already established with VMware in a private cloud environment but want to migrate to a public or hybrid cloud? Azure VMware Solution lets you run your VMware workloads in Azure with seamless integration and scalability.
