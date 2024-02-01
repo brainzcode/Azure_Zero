@@ -140,5 +140,5 @@ Private cloud in your datacenter.
 #### Functionality:
 - Assists in managing and coordinating resources in diverse cloud setups.
 
-#### Azure VMware Solution
+### Azure VMware Solution
 - What if you’re already established with VMware in a private cloud environment but want to migrate to a public or hybrid cloud? Azure VMware Solution lets you run your VMware workloads in Azure with seamless integration and scalability.
