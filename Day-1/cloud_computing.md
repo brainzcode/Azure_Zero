@@ -1,0 +1,112 @@
+# What is cloud computing
+
+- Cloud computing is the delivery of computing services over the internet. Computing services include common IT infrastructure such as virtual machines, storage, databases, and networking. Cloud services also expand the traditional IT offerings to include things like Internet of Things (IoT), machine learning (ML), and artificial intelligence (AI).
+
+- Because cloud computing uses the internet to deliver these services, it doesn’t have to be constrained by physical infrastructure the same way that a traditional datacenter is. That means if you need to increase your IT infrastructure rapidly, you don’t have to wait to build a new datacenter—you can use the cloud to rapidly expand your IT footprint. [Curled from Microsoft](https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute)
+
+
+## Shared Responsibility Model Overview
+
+#### Comparison with Traditional Datacenter:
+- Corporate datacenter:  responsibilities include physical space, security, server maintenance.
+
+- IT department manages infrastructure, software, and system upkeep
+
+#### Shared Responsibilities in Cloud:
+
+- Cloud provider handles physical security, power, cooling, and network connectivity.
+
+- Consumer responsible for data, information, and access security.
+
+#### Varied Responsibilities Based on Situation:
+
+- Example: Cloud provider maintains cloud SQL database, consumer manages data ingestion.
+
+- Consumer is responsible for patches and updates in a virtual machine with an installed SQL database.
+
+#### Responsibility Shift in Cloud Computing:
+
+- On-premises datacenter: Consumer is responsible for everything.
+
+- Cloud computing: Responsibilities shift based on service types (IaaS, PaaS, SaaS)
+
+#### Service Types Impact on Responsibility:
+- IaaS places more responsibility on the consumer.
+
+- PaaS distributes responsibility between the cloud provider and consumer.
+
+- SaaS places most responsibility on the cloud provider.
+
+- ![Visual Aid: Diagram illustrating Shared Responsibility Model's impact on responsibilities based on cloud service types.](image.png)
+
+
+#### You’ll always be responsible for:
+
+- The information and data stored in the cloud
+Devices that are allowed to connect to your cloud (cell phones, computers, and so on)
+
+- The accounts and identities of the people, services, and devices within your organization.
+
+### The cloud provider is always responsible for:
+
+- The physical datacenter
+
+- The physical network
+
+- The physical hosts
+
+#### Your service model will determine responsibility for things like:
+
+- Operating systems
+
+- Network controls
+
+- Applications
+
+- Identity and infrastructure
+
+
+## Define cloud models
+
+- What are cloud models? The cloud models define the deployment type of cloud resources. The three main cloud models are: private, public, and hybrid.
+
+
+### What is Private Cloud?
+- This is Involves the Evolution from a corporate datacenter, delivering IT services over the internet for a single entity's use.
+
+#### Characteristics:
+- Offers greater control for the company and its IT department.
+
+- Greater cost and fewer benefits compared to public cloud deployment.
+
+#### Hosting Options:
+- May be hosted on-site in the company's datacenter.
+
+- Alternatively, hosted in a dedicated offsite datacenter, potentially by a third party dedicated to the company.
+
+### What is a Public cloud?
+- A public cloud is built, controlled, and maintained by a third-party cloud provider. 
+
+- With a public cloud, anyone that wants to purchase cloud services can access and use resources. 
+
+- The general public availability is a key difference between public and private clouds.
+
+
+### What is a Hybrid Cloud?
+- This is a Computing environment utilizing both public and private clouds interconnectedly.
+
+#### Purpose:
+- Allows private cloud to scale for temporary demand using public cloud resources.
+
+- Provides an additional layer of security
+#### Flexibility:
+- Users can selectively choose services to keep in the public cloud or deploy to their private cloud infrastructure.
+
+#### The following table highlights a few key comparative aspects between the cloud models.
+
+| **Public cloud** | **Private cloud** | **Hybrid cloud** |
+| ---- | ---- | ---- |
+| No capital expenditures to scale up | Organizations have complete control over resources and security | Provides the most flexibility |
+| Applications can be quickly provisioned and deprovisioned | Data is not collocated with other organizations’ data | Organizations determine where to run their applications |
+| Organizations pay only for what they use | Hardware must be purchased for startup and maintenance | Organizations control security, compliance, or legal requirements |
+| Organizations don’t have complete control over resources and security | Organizations are responsible for hardware maintenance and updates |  |

@@ -17,7 +17,7 @@
   - Introduction to core Microsoft Azure services
   - Governance and compliance services overview
 
-### Learning objectives
+### Learning objectives:
 
 - Define cloud computing.
 - Describe the shared responsibility model.
