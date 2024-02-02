@@ -37,13 +37,14 @@
 
 - SaaS places most responsibility on the cloud provider.
 
-- ![Visual Aid: Diagram illustrating Shared Responsibility Model's impact on responsibilities based on cloud service types.](image.png)
+- ![Visual Aid: Diagram illustrating Shared Responsibility Model's impact on responsibilities based on cloud service types.](image.png) [curled from microsoft](https://learn.microsoft.com/)
+
 
 
 #### You’ll always be responsible for:
 
 - The information and data stored in the cloud
-Devices that are allowed to connect to your cloud (cell phones, computers, and so on)
+Devices that are allowed to connect to your cloud (cell phones, computers, and so on).
 
 - The accounts and identities of the people, services, and devices within your organization.
 
@@ -127,14 +128,16 @@ Devices that are allowed to connect to your cloud (cell phones, computers, and s
 
 
 ### What is Azure Arc?
-
 - A Set of technologies for cloud environment management.
 
 #### Scope of Management:
 - ##### Manages various cloud environments, including:
-  - Public cloud solely on Azure
-Private cloud in your datacenter.
+  - Public cloud solely on Azure.
+
+  - Private cloud in your datacenter.
+
   - Hybrid configurations.
+
   - Multi-cloud environments across multiple providers
 
 #### Functionality:
@@ -142,3 +145,82 @@ Private cloud in your datacenter.
 
 ### Azure VMware Solution
 - What if you’re already established with VMware in a private cloud environment but want to migrate to a public or hybrid cloud? Azure VMware Solution lets you run your VMware workloads in Azure with seamless integration and scalability.
+
+
+
+## Expense Types in IT Infrastructure Models:
+- ### Capital Expenditure (CapEx):
+  - One-time, up-front expenditure for tangible resources.
+
+  - Examples: Building construction, datacenter creation, vehicle purchase.
+
+- ### Operational Expenditure (OpEx):
+  - Spending money on services or products over time.
+
+  - Examples: Renting a convention center, leasing a vehicle, using cloud services.
+
+- ### Cloud Computing and OpEx:
+  - Operates on a consumption-based model.
+
+  - Payments based on actual usage of IT resources, not fixed infrastructure costs.
+
+- ### Benefits of Consumption-Based Model:
+  - No upfront costs.
+
+  - Avoidance of managing costly, underutilized infrastructure.
+
+  - Flexibility to scale resources up or down based on needs.
+
+  - Cost savings by not paying for unnecessary capacity.
+
+- ### Contrast with Traditional Datacenter:
+  - Estimating future resource needs crucial.
+
+  - Overestimating leads to wasted spending; underestimating can cause performance issues.
+
+- ### Cloud Model Flexibility:
+  - Adjustment of virtual machines based on demand.
+
+  - Paying only for used resources, avoiding costs for unused capacity.
+
+
+# Summary
+
+## Definition of Cloud Computing:
+- Delivery of computing services over the internet
+Utilizes a pay-as-you-go pricing model.
+
+## Consumer Benefits:
+- Pay only for the used cloud services.
+
+- Facilitates planning and managing operating costs.
+
+- Enhances efficiency in running infrastructure.
+
+- Allows scaling based on changing business needs.
+
+## Analogy to Renting Resources:
+- Cloud computing is akin to renting compute power and storage from an external datacenter.
+
+- Treats cloud resources like those in a personal datacenter
+
+## Return of Resources and Billing:
+- Resources are given back when no longer in use.
+
+- Billing is based on actual usage, not fixed ownership.
+
+## Responsibility Shift:
+- Unlike managing CPUs and storage, the cloud provider maintains the underlying infrastructure.
+
+## Advantages:
+- Enables quick solutions to business challenges.
+
+- Allows the adoption of cutting-edge solutions for users.
+
+
+
+
+
+
+
+
