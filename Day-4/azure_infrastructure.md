@@ -148,3 +148,97 @@
   - Flexibility in setting up resource groups to maximize utility.
 
 
+## Azure Subscriptions
+
+- **Definition:**
+  - Unit of management, billing, and scale in Azure.
+  - Allows logical organization of resource groups and facilitates billing.
+  - ![azure subscription](image.png)
+
+- **Purpose:**
+  - Required for accessing Azure products and services.
+  - Enables provisioning of resources.
+  - Links to an Azure account, serving as an identity in Microsoft Entra ID or a trusted directory.
+
+- **Multiple Subscriptions:**
+  - An account can have multiple subscriptions but requires at least one.
+  - Enables configuration of different billing models and access-management policies.
+
+- **Subscription Boundaries:**
+  - **Billing Boundary:**
+    - Determines how an Azure account is billed.
+    - Multiple subscriptions for different billing requirements.
+    - Separate billing reports and invoices for each subscription.
+  
+  - **Access Control Boundary:**
+    - Azure applies access-management policies at the subscription level.
+    - Allows creating separate subscriptions for different organizational structures.
+    - Example: Different departments with distinct Azure subscription policies.
+
+
+## Create Additional Azure Subscriptions
+
+- **Purpose:**
+  - Separate resources for function or access management.
+  - Enable better organization, access control, and billing management.
+
+- **Examples of Separation:**
+  - **Environments:**
+    - Set up separate subscriptions for development, testing, security, or compliance.
+    - Subscription-level access control enhances security and isolation.
+  
+  - **Organizational Structures:**
+    - Reflect different organizational units with separate subscriptions.
+    - Control access and resource provisioning based on organizational roles.
+  
+  - **Billing:**
+    - Manage and track costs effectively by creating separate subscriptions.
+    - Aggregate costs based on production, development, testing, or other needs.
+
+## Azure Management Groups
+
+- **Purpose:**
+  - Provide a higher level of organization and governance above subscriptions.
+  - Enable efficient management of access, policies, and compliance for multiple subscriptions.
+  
+- **Key Features:**
+  - **Hierarchy:** Organize subscriptions into containers called management groups.
+  - **Inheritance:** Conditions applied to management groups are automatically inherited by all subscriptions within.
+  - **Scalability:** Enable enterprise-grade management at scale, accommodating diverse subscription types.
+  - **Nested Structure:** Management groups can be nested to reflect complex organizational hierarchies.
+
+- **Benefits:**
+  - Facilitate efficient management and governance for large-scale Azure environments.
+  - Streamline access control, policies, and compliance across multiple subscriptions.
+  - Ideal for managing multiple applications, development teams, and geographically dispersed resources.
+
+
+## Management Group, Subscriptions, and Resource Group Hierarchy
+
+- **Flexible Structure:** 
+  - Utilize management groups and subscriptions to construct a hierarchical arrangement for efficient organization of resources.
+  - This hierarchy facilitates unified policy enforcement and access management.
+
+- **Example Diagram:**
+  - A diagram illustrates how management groups are employed to create a governance hierarchy, ensuring centralized management and control.
+  ![management groups](image-1.png)
+
+    ### Examples of Using Management Groups
+
+    - **Policy Application:**
+      - Establish a hierarchy that enforces specific policies, such as restricting VM locations to the US West Region within a group like "Production." 
+      - Policies applied at this level cascade down to all descendant subscriptions, ensuring consistency across all VMs under those subscriptions. 
+      - This approach enhances governance by preventing alteration of security policies by resource or subscription owners.
+
+    - **Access Management:**
+      - Facilitate user access to multiple subscriptions by consolidating them under a management group.
+      - Implement Azure role-based access control (Azure RBAC) assignments at the management group level.
+      - Permissions assigned at this level extend to all sub-management groups, subscriptions, resource groups, and resources within the hierarchy.
+      - Simplifies access management by enabling users to access all necessary resources without the need for individual RBAC configurations across multiple subscriptions.
+
+    ### Important facts about management groups:
+
+    - 10,000 management groups can be supported in a single directory.
+    - A management group tree can support up to six levels of depth. This limit doesn't include the root level or the subscription level.
+    - Each management group and subscription can support only one parent.
+
