@@ -81,6 +81,12 @@
       - Recommended for applications needing maximum consistency, durability, availability, performance, and disaster recovery resilience.
       - GZRS is designed to provide at least 16 nines (99.99999999999999%) of durability of objects over a given year.
       - ![alt text](image-2.png)
+    - #### Read access to data in the secondary region
+      - Geo-redundant storage (GRS or GZRS) replicates data to a secondary region for protection against regional outages.
+      - By default, data in the secondary region is available for read-only after a failover.
+      - Enable read-access geo-redundant storage (RA-GRS) or read-access geo-zone-redundant storage (RA-GZRS) for continuous read access to the secondary region.
+      - ### NOTE:
+        - *Remember that the data in your secondary region may not be up-to-date due to RPO.*
 
 
 
