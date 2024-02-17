@@ -69,6 +69,11 @@
         - Secondary region data is not directly accessible until a failover occurs.
       - ### NOTE:
         - *Because data is replicated to the secondary region asynchronously, a failure that affects the primary region may result in data loss if the primary region can't be recovered. The interval between the most recent writes to the primary region and the last write to the secondary region is known as the recovery point objective (RPO). The RPO indicates the point in time to which data can be recovered. Azure Storage typically has an RPO of less than 15 minutes, although there's currently no SLA on how long it takes to replicate data to the secondary region.*
+    - #### Geo-redundant storage
+      - GRS copies your data synchronously three times within a single physical location in the primary region using LRS. 
+      - It then copies your data asynchronously to a single physical location in the secondary region (the region pair) using LRS.
+      - GRS offers durability for Azure Storage data objects of at least 16 nines (99.99999999999999%) over a given year.
+      - ![alt text](image-1.png)
 
 
 
