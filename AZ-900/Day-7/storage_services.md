@@ -71,6 +71,25 @@
           - Data in the cool and cold access tiers can tolerate slightly lower availability, but still requires high durability, retrieval latency, and throughput characteristics similar to hot data. For cool and cold data, a lower availability service-level agreement (SLA) and higher access costs compared to hot data are acceptable trade-offs for lower storage costs.
           - Archive storage stores data offline and offers the lowest storage costs, but also the highest costs to rehydrate and access data.
 
+## Azure Files
+
+- Azure File storage provides managed file shares accessible via SMB or NFS protocols.
+- File shares can be mounted concurrently by cloud or on-premises deployments.
+- SMB file shares are accessible from Windows, Linux, and macOS, while NFS shares are accessible from Linux or macOS.
+- SMB file shares can be cached on Windows Servers with Azure File Sync for faster access.
+- ### Azure Files key benefits:
+
+  - **Shared Access**: Azure file shares support the industry standard SMB and NFS protocols, meaning you can seamlessly replace your on-premises file shares with Azure file shares without worrying about application compatibility.
+
+
+  - **Fully Managed**: Azure file shares can be created without the need to manage hardware or an OS. This means you don't have to deal with patching the server OS with critical security upgrades or replacing faulty hard disks.
+  - **Scripting and Tooling**: PowerShell cmdlets and Azure CLI can be used to create, mount, and manage Azure file shares as part of the administration of Azure applications. You can create and manage Azure file shares using Azure portal and Azure Storage Explorer.
+  - **Resiliency**: Azure Files has been built from the ground up to always be available. Replacing on-premises file shares with Azure Files means you don't have to wake up in the middle of the night to deal with local power outages or network issues.
+  - **Familiar Programmability**: Applications running in Azure can access data in the share via file system I/O APIs. Developers can therefore use their existing code and skills to migrate existing applications. In addition to System IO APIs, you can use Azure Storage Client Libraries or the Azure Storage REST API.
+
+
+
+
 
 
 

@@ -44,3 +44,8 @@
     |Azure Files|https://<storage-account-name>.file.core.windows.net|
     |Queue Storage|https://<storage-account-name>.queue.core.windows.net|
     |Table Storage|https://<storage-account-name>.table.core.windows.net|
+
+
+# NOTE:
+- ## **NFS:** Network File System.
+- ## **SMB:** Server Message Block.
