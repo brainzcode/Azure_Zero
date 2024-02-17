@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 az vm create --resource-group "resource-group-name" --name vm-name --public-ip-sku Standard --image Ubuntu2204 --admin-username admin-username --generate-ssh-keys
 
