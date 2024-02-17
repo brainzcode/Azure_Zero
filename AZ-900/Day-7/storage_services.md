@@ -87,6 +87,31 @@
   - **Resiliency**: Azure Files has been built from the ground up to always be available. Replacing on-premises file shares with Azure Files means you don't have to wake up in the middle of the night to deal with local power outages or network issues.
   - **Familiar Programmability**: Applications running in Azure can access data in the share via file system I/O APIs. Developers can therefore use their existing code and skills to migrate existing applications. In addition to System IO APIs, you can use Azure Storage Client Libraries or the Azure Storage REST API.
 
+## Azure Queues
+- Azure Queue storage is designed for storing large numbers of messages.
+- Messages can be accessed globally via authenticated calls using HTTP or HTTPS.
+- Each queue can hold potentially millions of messages, with each message up to 64 KB in size.
+  
+- Queues are commonly used to manage workloads asynchronously, creating a backlog of tasks to process.
+- Queue storage can be integrated with Azure Functions to trigger actions when messages are received.
+- For example, messages in the queue can represent tasks or events, such as form submissions on a website.
+- Azure Functions can be configured to execute specific actions in response to messages being added to the queue.
+
+## Azure Disks
+- Azure Disk storage, or Azure managed disks, are block-level storage volumes managed by Azure for use with Azure VMs. Conceptually, they’re the same as a physical disk, but they’re virtualized – offering greater resiliency and availability than a physical disk. 
+
+- With managed disks, all you have to do is provision the disk, and Azure will take care of the rest.
+
+## Azure Tables
+- Azure Table storage stores large amounts of structured data. Azure tables are a NoSQL datastore that accepts authenticated calls from inside and outside the Azure cloud. 
+
+- This enables you to use Azure tables to build your hybrid or multi-cloud solution and have your data always available. Azure tables are ideal for storing structured, non-relational data.
+
+
+
+
+
+
 
 
 
