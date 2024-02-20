@@ -13,6 +13,8 @@
 - Supports a variety of identity providers, including corporate, government-issued, or social identities.
 - Access to apps is managed using Microsoft Entra ID or Azure AD B2C for security and protection of resources.
 
+- ![Azure AD External Identity](image-1.png)
+
 ## External Identities Capabilities
 
 **1. Business to Business (B2B) Collaboration:**
