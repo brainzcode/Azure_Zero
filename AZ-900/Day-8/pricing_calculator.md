@@ -1,8 +1,5 @@
 # Estimate workload costs by using the Pricing calculator
 
-Completed100 XP
-
-- 10 minutes
 
 In this exercise, you use the Pricing calculator to estimate the cost of running a basic web application on Azure.
 
