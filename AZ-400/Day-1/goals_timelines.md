@@ -39,3 +39,13 @@
 ## Maintain Support
 
 - Clear, frequent positive outcomes help sustain organizational buy-in.
+
+
+## `Learn More`
+- [Donovan Brown | What is DevOps?](https://www.donovanbrown.com/post/what-is-devops)
+- [What is DevOps? - Azure DevOps | Microsoft Docs](https://learn.microsoft.com/en-us/devops/what-is-devops)
+- [Getting started with GitHub - GitHub Docs](https://docs.github.com/get-started)
+- [View of features and epics on the Feature Timeline - Azure DevOps | Microsoft Docs](https://learn.microsoft.com/en-us/azure/devops/boards/extensions/feature-timeline)
+- [Plan and track work in Azure Boards with Basic or Agile processes - Azure Boards | Microsoft Docs](https://learn.microsoft.com/en-us/azure/devops/boards/get-started/plan-track-work)
+- [Agile Manifesto for Software Development | Agile Alliance](https://www.agilealliance.org/agile101/the-agile-manifesto)
+- [12 Principles Behind the Agile Manifesto | Agile Alliance](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto)
