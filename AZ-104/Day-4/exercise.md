@@ -1,14 +1,5 @@
 # Exercise - Add parameters and outputs to your Azure Resource Manager template
 
-Completed100 XP
-
-- 12 minutes
-
-Sandbox activated! Time remaining: 
-
-3 hr
-
-You have used 2 of 10 sandboxes for today. More sandboxes will be available tomorrow.
 
 Choose your Azure shell
 
