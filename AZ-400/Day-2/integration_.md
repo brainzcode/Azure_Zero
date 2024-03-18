@@ -25,4 +25,3 @@
 * Explore pre-built integration tools in the Visual Studio Marketplace for a simpler approach.
 * Consider third-party solutions or custom code development for migrations from specific platforms.
 
-Let me know if you'd like links to the mentioned resources or further guidance on migrating from a specific tool! 
