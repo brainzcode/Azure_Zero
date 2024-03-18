@@ -23,4 +23,3 @@
 * Integrate well-known third-party tools for specialized testing requirements.
 * If you currently use Microsoft Test Manager, plan to migrate to Azure Test Plans.
 
-Let me know if you have specific questions about integrating a particular test tool or the migration process from Microsoft Test Manager! 
